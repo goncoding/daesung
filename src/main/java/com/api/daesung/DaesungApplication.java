@@ -12,8 +12,5 @@ public class DaesungApplication {
         SpringApplication.run(DaesungApplication.class, args);
     }
 
-    @Bean
-    public ModelMapper modelMapper() {      return new ModelMapper();   }
-
 
 }
